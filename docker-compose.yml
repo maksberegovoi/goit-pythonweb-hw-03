@@ -1,0 +1,14 @@
+version: '3.10'
+
+services:
+  hw03:
+    build: .
+    ports:
+      - "3000:3000"
+    volumes:
+      - .:/app
+      - ./goit_pythonweb_hw_03/storage:/app/goit_pythonweb_hw_03/storage
+
+
+volumes:
+  data: {}

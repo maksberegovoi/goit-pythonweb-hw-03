@@ -1,0 +1,25 @@
+# VCS
+.git
+.gitignore
+
+# IDE / editors
+.idea
+.vscode
+
+# Python
+__pycache__
+*.pyc
+.pytest_cache
+.venv
+
+# Environment / secrets
+.env
+*.env
+
+# Docker internal
+Dockerfile
+docker-compose.yml
+
+# OS garbage
+.DS_Store
+Thumbs.db
